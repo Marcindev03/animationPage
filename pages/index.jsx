@@ -18,6 +18,34 @@ const Home = () => {
         Potężne animacje
       </motion.h1>
       <BulletPlayground />
+      <motion.ul className={styles.listWrapper}>
+        <motion.h3
+          initial={{
+            x: -300,
+          }}
+          animate={{
+            x: 0,
+          }}
+          transition={{
+            duration: 1,
+          }}
+        >
+          Autorskie Animacje
+        </motion.h3>
+        <motion.li
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+          }}
+          transition={{
+            delay: 1,
+          }}
+        >
+          <Link href="/animation/docs/first">
+            <a>Animacja 1</a>
+          </Link>
+        </motion.li>
+      </motion.ul>
     </>
   );
 };
