@@ -1,0 +1,24 @@
+$drag-area-height: 300px;
+$drag-area-width: 300px;
+
+.dragArea {
+  opacity: 0.2;
+  background: white;
+  position: absolute;
+  width: $drag-area-width;
+  height: $drag-area-height;
+  border-radius: 30px;
+  top: calc(50% - $drag-area-height);
+  left: calc(50% - $drag-area-width);
+}
+
+.square {
+  background: #fff;
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50% - 150px / 2);
+  left: calc(50% - 150px / 2);
+  cursor: pointer;
+}

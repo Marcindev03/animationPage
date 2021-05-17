@@ -1,0 +1,17 @@
+.wrapper {
+  position: relative;
+  margin: 1rem auto;
+  width: 80vw;
+  height: 40vw;
+  background-color: #85f;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &Column {
+    @extend .wrapper;
+    flex-direction: column;
+  }
+}

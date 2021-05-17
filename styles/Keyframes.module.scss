@@ -1,0 +1,19 @@
+$bg-height: 400px;
+$bg-width: 400px;
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  z-index: 10;
+
+  &Background {
+    position: absolute;
+    height: $bg-height;
+    width: $bg-width;
+    opacity: 1;
+    background: #f4f4f4;
+    border-radius: 50px;
+    opacity: 0.4;
+  }
+}
