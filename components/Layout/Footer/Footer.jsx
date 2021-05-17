@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className={styles.wrapper}>
       <p>
-        W projekcie została używta biblioteka{' '}
+        W projekcie została użyta biblioteka{' '}
         <a
           className={styles.link}
           href="https://www.framer.com/motion/"
