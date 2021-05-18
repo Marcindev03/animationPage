@@ -45,6 +45,19 @@ const Home = () => {
             <a>Animacja 1</a>
           </Link>
         </motion.li>
+        <motion.li
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+          }}
+          transition={{
+            delay: 1,
+          }}
+        >
+          <Link href="/animation/docs/second">
+            <a>Animacja 2</a>
+          </Link>
+        </motion.li>
       </motion.ul>
     </>
   );
